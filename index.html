@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Education Website</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f7fb;
+            color: #222;
+        }
+
+        header {
+            background: #2563eb;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 30px;
+        }
+
+        header p {
+            margin-top: 8px;
+        }
+
+        nav {
+            background: white;
+            padding: 12px;
+            text-align: center;
+            box-shadow: 0 2px 8px #ccc;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #2563eb;
+            margin: 8px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            color: #1e40af;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            background: #2563eb;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .section {
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            margin-bottom: 25px;
+            color: #1e40af;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #ddd;
+        }
+
+        .card h3 {
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🎓 EduLearn</h1>
+        <p>तुमच्या शिक्षणासाठी एक सोपी वेबसाइट</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#notes">Notes</a>
+        <a href="#papers">Question Papers</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Welcome to EduLearn 📚</h2>
+        <p>शिका, सराव करा आणि परीक्षेत चांगले गुण मिळवा!</p>
+        <a href="#subjects" class="btn">Start Learning 🚀</a>
+    </section>
+
+    <section class="section" id="subjects">
+        <h2>📚 Subjects</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>📐 Mathematics</h3>
+                <p>गणिताचे Notes आणि अभ्यास साहित्य.</p>
+                <a href="#" class="btn">Open</a>
+            </div>
+
+            <div class="card">
+                <h3>🔬 Science</h3>
+                <p>Science चे Notes आणि महत्त्वाचे प्रश्न.</p>
+                <a href="#" class="btn">Open</a>
+            </div>
+
+            <div class="card">
+                <h3>💻 Computer</h3>
+                <p>Computer Science शिकण्यासाठी साहित्य.</p>
+                <a href="#" class="btn">Open</a>
+            </div>
+
+            <div class="card">
+                <h3>📖 English</h3>
+                <p>English Grammar आणि Writing Practice.</p>
+                <a href="#" class="btn">Open</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section" id="notes">
+        <h2>📝 Notes</h2>
+        <p>इथे विद्यार्थ्यांना विषयानुसार Notes मिळतील.</p>
+    </section>
+
+    <section class="section" id="papers">
+        <h2>📄 Question Papers</h2>
+        <p>इथे परीक्षेचे Question Papers उपलब्ध होतील.</p>
+    </section>
+
+    <section class="section" id="quiz">
+        <h2>🧮 Quiz</h2>
+        <p>तुमच्या ज्ञानाची Quiz द्वारे चाचणी घ्या!</p>
+        <br>
+        <a href="#" class="btn">Start Quiz</a>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>📞 Contact</h2>
+        <p>Education Website साठी आमच्याशी संपर्क करा.</p>
+    </section>
+
+    <footer>
+        <p>© 2026 EduLearn | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
